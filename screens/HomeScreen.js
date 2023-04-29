@@ -50,7 +50,6 @@ const HomeScreen = () => {
           source={HeroImage}
           className="w-full h-[600px] mt-20"
         />
-        {/* main go button */}
         <TouchableOpacity
           onPress={() => navigation.navigate("Discover")}
           className="absolute bottom-20 w-24 h-24 border-l-2 border-r-2 border-t-4 border-[#00BCC9] justify-center items-center "
